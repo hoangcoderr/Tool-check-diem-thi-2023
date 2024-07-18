@@ -10,7 +10,7 @@ sbd = input("Nhập số báo danh (SBD): ")
 diemuutien = input("Nhập điểm ưu tiên (nếu có)): ")
 diemuutien = eval(diemuutien)
 try:
-    scraping_url = "https://dantri.com.vn/thpt/1/0/99/" + sbd + "/2023/0.2/search-gradle.htm"
+    scraping_url = "https://dantri.com.vn/thpt/1/0/99/" + sbd + "/2024/0.2/search-gradle.htm"
     payload = {}
     headers = {}
     response = requests.request(
